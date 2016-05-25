@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e5e5e5"
+    tools:context="a.b.fragment.SetFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_set_account_security"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_set_account_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="账号安全"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/tongyong_jiantou" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="#00000000"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_set_problem"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_set_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="常见问题"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/tongyong_jiantou" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#e5e5e5"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_set_opinion"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_set_opinion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="意见提交"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/tongyong_jiantou" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#e5e5e5"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_set_aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_set_aboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="关于蘑菇"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/tongyong_jiantou" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="退出登录"
+        android:id="@+id/button_set_unlogin"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF6602" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/ic_pay_rent"
+            android:title="账单" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_rent_order"
+            android:title="订单" />
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@drawable/ic_nav_favorite"
+            android:title="收藏" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_aftermarket"
+            android:title="售后" />
+
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_my_wallet"
+            android:title="钱包" />
+    </group>
+
+    <item android:title="通用设置">
+        <menu>
+            <item
+                android:id="@+id/nav_city"
+                android:icon="@drawable/ic_map"
+                android:title="城市" />
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@drawable/ic_setting"
+                android:title="设置" />
+        </menu>
+    </item>
+
+</menu>
